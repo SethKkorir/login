@@ -1,0 +1,81 @@
+body{
+    background-image: url(pexels-kyle-loftus-3379934.jpg);
+}
+.container1 img{
+    width: 50px;
+    height: 50px;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    border: 1 pixel solid black;
+}
+.header{
+    background-color: aquamarine;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 10em;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.box{
+    float: right;
+    margin-right: 10px;
+    width: 50px;
+    border: 2px solid yellow;
+    background-color: transparent;
+}
+.box2{
+    width: 10%;
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+    border: 2px solid yellow;
+    background-color: transparent;
+}
+.box3{
+    background-color: white;
+    border: 3px solid red;
+    clear: both;
+}
+.mainHeading{
+    color: red;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    word-spacing: 15px;
+    text-align: left;
+    font-family: 'Times New Roman';
+    text-decoration: underline;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+.links a{ 
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: red;
+}
+.container3{
+    width: 500px;
+    height: 500px;
+    background-image: url(pexels-bich-tran-669996.jpg);
+    background-size: cover;
+}
+

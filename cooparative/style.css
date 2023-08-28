@@ -1,0 +1,82 @@
+.heading-title img{
+    margin-left: 45%;
+    background-color: white;
+    border-radius: 40px;
+    border: 50px solid #fff;
+    padding-top: 0px;
+}
+.heading-title a{
+    text-decoration: none;
+    margin-left: 50px;
+    color:white;
+    position:100px;
+}
+.heading-title h1{
+    text-align: center;
+    margin-top:80px;
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+    
+.heading-title h2{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    padding: none;
+}
+
+body{
+   background:radial-gradient(circle,rgba(128,185,39,0.5)4%,rgba(72,140,48,0.8)15%,rgba(29,105,55,0.856)31%,rgba(0,81,59,0.8)58%,rgba(0,81,59,1)100%),url(picture.png) ;
+   background-size: cover;
+}
+     
+     
+.container-1{
+    display: flex;
+    height: 200px;
+
+}
+.container-1 div{
+    padding: 10px;
+}
+.box-1{
+    flex: 2%;
+    margin-left: 100px;
+}
+.box-2{
+    flex: 2%;
+}
+.box-3{
+    flex: 2;
+    width: 50px;
+}
+.box-4{
+    flex: 2%;
+    margin-right: 100px;
+}
+.oval{
+    padding: 50px;
+    font-family: "Poppins";
+    font-size: 30px;
+    text-align: center;  
+}
+
+a.btn {
+    text-decoration: none;
+    padding: 0px 60px;
+    border-radius: 27px;
+    margin: 15px;
+    border: 2px solid #fff;
+
+}
+.secondary{
+    color: #00513B;
+    background: #fff;
+}   
+.primary{
+    color: #fff;
+}
+a:hover{
+    color: red;
+}

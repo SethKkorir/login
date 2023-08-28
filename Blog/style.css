@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(codd.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading-title{
+    color: rgb(255, 255, 255);
+}
+.heading-title img{
+width: 200px;
+height: 200px;
+}
